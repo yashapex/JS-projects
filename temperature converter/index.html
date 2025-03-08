@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="temp">
+        <h2>Temperature conversion:</h2>
+        <input type="number" id="textBox" value="0"> <br>
+    
+        <input type="radio" name="select" id="CtoF"> 
+        <label for="CtoF">Celsius ➡️ Farenheit</label><br>
+    
+        <input type="radio" name="select" id="FtoC"> 
+        <label for="FtoC">Farenheit ➡️ Celsius</label><br>
+        
+        <button type = "button" id="myButton" onclick="convert()">submit</button>
+        <p id="result"></p>
+        
+    </div>
+    <!--Always connect javascript file to the end of file so that,
+        if it has some errors then atleast our html file is rendered first -->
+        <script src="index.js"></script>
+</body>
+</html>

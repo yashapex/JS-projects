@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%); 
+}
+h2{
+    color: rgb(78, 78, 248);
+    font-size: 2.5em;
+}
+
+#temp{
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    max-width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 8px 8px 20px hsl(0, 1%, 33%);
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 3em;
+    border: 2px solid rgb(28, 26, 26);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#myButton{
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: rgb(254, 83, 45);
+    background-color: rgb(198, 254, 255);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#myButton:hover{
+    background-color: rgb(66, 247, 250);
+}
+#myButton:active{
+    font-size: 28px;
+}
+
+#result{
+    font-size: 1.5em;
+    font-weight: bold;
+}
